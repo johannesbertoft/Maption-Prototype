@@ -1,0 +1,30 @@
+summary: "Get distinct tag values from a defined area"
+description: "get availabel tag values from a within a user defined area"
+produces:
+- "application/json"
+parameters:
+- in: "query"
+  name: "coordinates"
+  schema:
+      type: object
+      example:   # Sample object
+                test: [...]
+                test: [...]
+  type: "object"
+  required: "true"
+responses:
+  200:
+    description: "Success"
+    schema:
+      type: "object"
+      properties:
+        data:
+          type: "object"
+        status:
+          type: "string"
+        message:
+          type: "string"
+ 
+  400:
+    description: "Same response is for 202, 400"
+    

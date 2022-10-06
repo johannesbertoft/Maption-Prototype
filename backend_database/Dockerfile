@@ -1,0 +1,3 @@
+FROM postgis/postgis
+ENV POSTGRES_PASSWORD=postgres
+EXPOSE 5432

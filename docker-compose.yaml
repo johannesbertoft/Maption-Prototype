@@ -1,0 +1,37 @@
+version: '3.3'
+services:
+  backend-flaskapi:
+    container_name: flask
+    restart: on-failure
+    build: ./backend_api
+    ports: 
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - "./backend_api:/app"
+  backend-networkmanager:
+    container_name: netmanager
+    build: ./backend_network_manager
+  backend-db:
+    container_name: postgis_db
+    restart: always
+    build: ./backend_database
+    ports:
+      - "8001:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+  react-ui:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    container_name: react-ui
+    stdin_open: true
+    env_file:
+      - .env
+    volumes:
+       - "./frontend:/app"
+       - "/app/node_modules" 
+    
+    
+    
