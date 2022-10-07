@@ -17,33 +17,38 @@ _by Christian Andersen, Anders Skaaden, Troels Hjarne, Johannes Bertoft_
 
 Search for locations in the top corner and the map will navigate to that place. Use the draw tool on the left to draw a polygon. Then click on **create area**, and the street network within the borders of your polygon will be generated. 
 
-<img src=https://media.giphy.com/media/IMPMWJNWsbOFMRxzT9/giphy.gif width=700>
+![navigate map and create area](https://media.giphy.com/media/IMPMWJNWsbOFMRxzT9/giphy.gif)
+<!-- <img src=https://media.giphy.com/media/IMPMWJNWsbOFMRxzT9/giphy.gif width=600> -->
 
 ---
 
 Save the area with a name and see it appear in a drop-down in the top right. Toggle visibility of the generated background and street layer.
 
-<img src=https://media.giphy.com/media/s63SB64OLoZGxYo8Ep/giphy.gif width=700>
+![save area and toggle street layer](https://media.giphy.com/media/s63SB64OLoZGxYo8Ep/giphy.gif)
+<!-- <img src=https://media.giphy.com/media/s63SB64OLoZGxYo8Ep/giphy.gif width=600> -->
 
 
 ---
 
 Click on **new query** to analyse accessibility for a specific amenity available in OSM (e.g. doctor, restaurant, cinema). 
 
-<img src=https://media.giphy.com/media/Nxvv4Yt5C9hZra7o8W/giphy.gif width=700>
+![run a new query](https://media.giphy.com/media/Nxvv4Yt5C9hZra7o8W/giphy.gif)
+<!-- <img src=https://media.giphy.com/media/Nxvv4Yt5C9hZra7o8W/giphy.gif width=600> -->
 
 
 ---
 
 Toggle and adjust the different layer's properties, for example the size of the hexagons.
 
-<img src=https://media.giphy.com/media/UhyfydzHvt95ogiUtU/giphy.gif width=700>
+![toggle and adjust layers](https://media.giphy.com/media/UhyfydzHvt95ogiUtU/giphy.gif)
+<!-- <img src=https://media.giphy.com/media/UhyfydzHvt95ogiUtU/giphy.gif width=600> -->
 
 ---
 
 Navigate between your saved areas and run any number of queries. 
 
-<img src=https://media.giphy.com/media/U3iCvB3pARZY5LY0qQ/giphy.gif width=700>
+![navigate between saved areas](https://media.giphy.com/media/U3iCvB3pARZY5LY0qQ/giphy.gif)
+<!-- <img src=https://media.giphy.com/media/U3iCvB3pARZY5LY0qQ/giphy.gif width=700> -->
 
 
 ## Run this locally
